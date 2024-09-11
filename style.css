@@ -1,0 +1,95 @@
+                                                                                                          :root {
+                                                                                                             --light-blue: #457b9d;
+                                                                                                             --dark-blue: #1d3557;
+                                                                                                             --light: #f1faee;
+                                                                                                             --aqua: #a8dadc;
+                                                                                                         }
+                                                                                                         
+                                                                                                         body {
+                                                                                                             text-align: center;
+                                                                                                             font-family: 'Happy Monkey', cursive;
+                                                                                                             margin: 0px;
+                                                                                                         }
+                                                                                                         
+                                                                                                         #hero {
+                                                                                                             color: white;
+                                                                                                             display: flex;
+                                                                                                             flex-direction: column;
+                                                                                                             align-items: center;
+                                                                                                             justify-content: start;
+                                                                                                             background-size: auto;
+                                                                                                             background-position: center;
+                                                                                                             background-repeat: no-repeat;
+                                                                                                             background-image: url("./images/supplier_park_inn_by_radisson_959339_1_260x240.jpg"), linear-gradient(95deg, #5c5c8a 3%, #9a6e8d 35%, #bc865c 65%, #7f847b 85%, #5c5c8a 96%);
+                                                                                                         }
+                                                                                                         
+                                                                                                         .hero-title {
+                                                                                                             margin: 30px;
+                                                                                                             background: var(--dark-blue);
+                                                                                                             padding: 4px 40px;
+                                                                                                             border-radius: 10px;
+                                                                                                         }
+                                                                                                         
+                                                                                                         .hero-subtitle {
+                                                                                                             margin: 100px 0 40px 0;
+                                                                                                             background: var(--light-blue);
+                                                                                                             padding: 4px 12px;
+                                                                                                             border-radius: 14px;
+                                                                                                         }
+                                                                                                         
+                                                                                                         #activities {
+                                                                                                             background: var(--aqua);
+                                                                                                             display: flex;
+                                                                                                             justify-content: space-evenly;
+                                                                                                             color: var(--light-blue);
+                                                                                                         }
+                                                                                                         
+                                                                                                         .activities-box {
+                                                                                                             display: flex;
+                                                                                                             justify-content: space-around;
+                                                                                                             align-items: start;
+                                                                                                             width: 900px;
+                                                                                                             margin: auto;
+                                                                                                             padding: 60px 0px;
+                                                                                                             background: white;
+                                                                                                             color: var(--light-blue);
+                                                                                                         }
+                                                                                                         
+                                                                                                         .activity {
+                                                                                                             width: 200px;
+                                                                                                         }
+                                                                                                         
+                                                                                                         .activity-img {
+                                                                                                             border-radius: 30%;
+                                                                                                             width: 150px;
+                                                                                                         }
+                                                                                                         
+                                                                                                         #yourguide {
+                                                                                                             padding: 60px 0px;
+                                                                                                             background-color: white;
+                                                                                                         }
+                                                                                                         
+                                                                                                         .guide-card {
+                                                                                                             width: 425px;
+                                                                                                             margin: 30px auto;
+                                                                                                             padding: 15px;
+                                                                                                             display: flex;
+                                                                                                             justify-content: space-around;
+                                                                                                             background: var(--aqua);
+                                                                                                             border-bottom: 10px solid var(--light);
+                                                                                                             border-radius: 6px;
+                                                                                                             color: var(--dark-blue);
+                                                                                                         }
+                                                                                                         
+                                                                                                         .guide-img {
+                                                                                                             width: 180px;
+                                                                                                             height: min-content;
+                                                                                                             border-radius: 6px;
+                                                                                                             margin: 25px 15px 25px 0px;
+                                                                                                         }
+                                                                                                         
+                                                                                                         .guideinfo {
+                                                                                                             display: flex;
+                                                                                                             flex-direction: column;
+                                                                                                             width: 300px;
+                                                                                                         }
